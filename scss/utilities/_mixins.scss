@@ -1,0 +1,18 @@
+@mixin big-center{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@mixin muscle{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@mixin my-likes{
+    display: inline-block;
+    background-image: linear-gradient(to bottom, $main-color-2 20%, #c8a3db 50%, #c8a3db 30%);
+    width: 30%;
+    margin-left: 1em;
+    border-radius: 5%;
+    padding: 3% 2% 1%;
+}

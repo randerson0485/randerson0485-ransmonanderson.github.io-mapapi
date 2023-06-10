@@ -1,0 +1,16 @@
+.access{
+    @include muscle;
+}
+
+.swatch-list{
+    text-transform: uppercase;
+    display: inline;
+    transition: transform .2s; /* Animation */
+}
+
+.swatch-list:hover{
+    transform: scale(1.5);
+    color: $main-color-2;
+    cursor: pointer;
+}
+

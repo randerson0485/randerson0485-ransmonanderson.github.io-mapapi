@@ -1,0 +1,64 @@
+*{font-family: 'Roboto', sans-serif;
+}
+.first, .last{
+    @include big-center;
+    color: $accent-color;
+    background-color: $main-color;
+    padding-top: 2%;
+}
+
+.officer, .sargent, .boss{
+    @include big-center;
+}
+
+.officer-2{
+    color: white;
+    margin-bottom: 2.5em;
+    padding: 0  2%;
+}
+
+.boss{margin-top: 0;
+color: white;
+}
+
+.boss-2{
+    border-bottom: 1px solid;
+}
+
+.content{
+    background-color: $main-color-4;
+    padding-top: 2%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.swatch-list-2{
+    text-transform: uppercase;
+    list-style: none;
+    text-align: center;
+    font-weight: 700;
+}
+
+ul{
+    padding-inline-start: 0;
+}
+
+.content-blocks{
+    @include muscle;
+    flex-direction: row;
+    width: 98%;
+}
+
+.gym, .sports, .food{
+    @include my-likes;
+}
+
+.last{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+}
+
